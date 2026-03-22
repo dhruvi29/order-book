@@ -1,0 +1,45 @@
+.order-list-container {
+  flex: 1;
+  background: #23272f;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  padding: 1.2em 1.5em;
+  /* margin-bottom: 1.5em; */
+  margin-right: 2em;
+  color: #f5f6fa;
+  min-height: 180px;
+}
+.order-list-title {
+  color: #00e676;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 0.7em;
+  text-align: center;
+}
+.order-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.order-list-item {
+  background: #181a20;
+  margin-bottom: 0.5em;
+  padding: 0.5em 0.8em;
+  color: #f5f6fa;
+  font-size: 0.98em;
+  word-break: break-all;
+  display: flex;
+  gap: 1.2em;
+  align-items: center;
+}
+.order-type.buy {
+  color: #00e676;
+  font-weight: 700;
+}
+.order-type.sell {
+  color: #ff5252;
+  font-weight: 700;
+}
+.order-qty, .order-price {
+  color: #b0b3b8;
+  font-size: 0.97em;
+}

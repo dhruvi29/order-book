@@ -1,0 +1,8 @@
+.main-row{
+    width: 100vw;
+    margin: 0 20em 0 20em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2em;
+}
